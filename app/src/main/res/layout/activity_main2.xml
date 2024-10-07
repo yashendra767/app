@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@color/blue"
+         />
+
+    <LinearLayout
+        android:id="@+id/main1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:context=".MainActivity2">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="130dp"
+            android:layout_height="155dp"
+            app:srcCompat="@drawable/imglogo" />
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="130dp"
+            android:layout_height="155dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginStart="149dp"
+            android:layout_marginEnd="7dp"
+            app:srcCompat="@drawable/qr" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="7dp"
+        android:textSize="21dp"
+        android:layout_marginTop="50dp"
+        android:text="ID. No. - IIT(ISM)/2024/N/2105" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="7dp"
+        android:textSize="21dp"
+        android:layout_marginTop="3dp"
+        android:text="Blood Group - O+" />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="7dp"
+        android:textSize="21dp"
+        android:layout_marginTop="3dp"
+        android:text="Contact No. - 9236311195" />
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="7dp"
+        android:textSize="21dp"
+        android:layout_marginTop="3dp"
+        android:text="Validity - 30/06/2029" />
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="7dp"
+        android:textSize="17dp"
+        android:layout_marginTop="40dp"
+        android:text="This is digitally signed and electronically verified.\nAnd is not transferable" />
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="7dp"
+        android:layout_marginTop="20dp"
+        android:text="Emergency Contact: Sr. SEO, IIT(ISM), Dhanbad - 9471193016">
+
+    </TextView>
+
+
+</LinearLayout>
